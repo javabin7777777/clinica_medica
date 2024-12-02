@@ -17,12 +17,13 @@ import med.voll.api.model.Enderecos;
 import med.voll.api.model.Especialidade;
 import med.voll.api.model.Medicos;
 
-@Getter
+
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of ="id")
 @Entity
 @Table(name="medicos")
+@Getter
 public class MedicoDB {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,9 +37,7 @@ public class MedicoDB {
 	@Enumerated(EnumType.STRING)
 	private Especialidade especialidade;
 	@Embedded
-	private Enderecos endereco;
-	
-	public MedicoDB() {}
+	private Enderecos endereco;	
 	
 	public MedicoDB(Medicos medico) {
 		super();		
@@ -47,22 +46,6 @@ public class MedicoDB {
 		this.crm = medico.crm();
 		this.especialidade = medico.especialidade();
 		this.endereco = new Enderecos(medico.endereco());
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public String getCrm() {
-		return crm;
-	}
-
-	public Especialidade getEspecialidade() {
-		return especialidade;
 	}
 }
 

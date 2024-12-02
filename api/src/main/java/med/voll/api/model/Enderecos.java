@@ -19,8 +19,6 @@ public class Enderecos {
     private String numero;
     private String complemento;
     
-    public Enderecos() {}
-    
 	public Enderecos(Endereco endereco) {	
 		super();
 		this.logradouro = endereco.logradouro();
