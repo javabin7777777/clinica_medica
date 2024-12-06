@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
 public record Endereco(
-		@NotBlank@NotBlank
+		@NotBlank
 		String logradouro,
 		@NotBlank
 		String bairro,
