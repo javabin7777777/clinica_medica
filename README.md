@@ -1,4 +1,4 @@
-# Clinica_medica
+# Clinica_Medica
 API REST com persistência de dados:
 - Spring boot data jpa(Hibernate).
 - Banco de dados postgreSQL. 
@@ -8,7 +8,7 @@ API REST com persistência de dados:
 
 
 
-<video controls width="250">
+<video controls width="300">
   <source src="/api/arquivos-do-projeto/cadastrar-listar-paginar-atualizar-apagar.webm" type="video/webm" />
 
   <source src="/api/arquivos-do-projeto/apagar-recuperar.webm" type="video/webm" />
