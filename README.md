@@ -1,11 +1,22 @@
 # Clinica_Medica
 API REST com persistência de dados:
 - Spring boot data jpa(Hibernate).
-- Banco de dados postgreSQL. 
-- Insomnia para fazer requisições à API.  
-    
- ## Cadastrar | Listar | Paginar | Atualizar | Apagar  
+- Banco de dados postgreSQL(17). 
+- Insomnia para fazer requisições à API.
 
+## Cadastrar | Listar | Paginar | Atualizar | Apagar
+ 
+## Linguagem  
+- Java
+  
+## Gerenciador de dependências  
+  - Maven
+
+## IDE (Ambiente Integrado de Desenvolvimento | Integrated Development Environment )
+- Eclipse 2024-12.
+  
+## Plataforma
+- Win10 Single Language.
 
 
 <video controls width="300">
