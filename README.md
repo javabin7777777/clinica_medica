@@ -13,12 +13,8 @@ API REST com persistência de dados:
 
   <source src="/api/arquivos-do-projeto/apagar-recuperar.webm" type="video/webm" />
  
-</video>  
+</video>   
 
-
-
-      
-## Apagar | Recuperar
 <video controls width="300">
 
   <source src="/api/arquivos-do-projeto/apagar-recuperar.webm" type="video/webm" />
